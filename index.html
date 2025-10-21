@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <aside id="sidebar">
+        <div class="sidebar-head">
+          <h2>選單</h2>
+          <button id="btn-toggle" aria-label="toggle sidebar">☰</button>
+        </div>
+        <button id="btn-random">隨機顏色</button>
+        <button id="btn-pause">暫停/繼續</button>
+        <button id="btn-full">全螢幕</button>
+        <hr>
+        <ul id="menu">
+          <li><button class="menu-item">項目 1</button></li>
+          <li><button class="menu-item">項目 2</button></li>
+          <li><button class="menu-item">項目 3</button></li>
+        </ul>
+      </aside>
+
+      <main id="main">
+        <div id="canvas-container"></div>
+      </main>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
